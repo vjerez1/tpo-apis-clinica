@@ -16,5 +16,5 @@ var ObraSocialSchema = new mongoose.Schema({
 const ObraSocialModel = mongoose.model('ObraSocial', ObraSocialSchema);
 
 // EXPORTAMOS EL MODELO
-// ¡OJO! Debe ser 'module.exports' (con 's' al final)
+
 module.exports = ObraSocialModel;
